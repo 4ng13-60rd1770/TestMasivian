@@ -1,0 +1,10 @@
+1.cd Test Masivian
+2.docker-compose -f docker-compose.yml up
+3.Test from postman
+4.Load Postan_collection.json 
+
+1. POST http://localhost:5000/api/roulette  create 	roulette
+2. GET http://localhost:5000/api/roulette   List 	roulettes
+3. PUT http://localhost:5000/api/roulette/	{{roulette_id}}/open open roulette
+4. POST http://localhost:5000/api/roulette/	{{roulette_id}}/bet bet
+5. PUT http://localhost:5000/api/roulette/	{{roulette_id}}/close close rulette
